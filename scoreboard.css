@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+/*For the whole scoreboard div*/
+#team-container {
+  height: 385px;
+  width: 575px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1b244a;
+  color: white;
+}
+/* H3 Text */
+h3 {
+  font-size: 30px;
+  margin: 30px 20px 0px 20px;
+}
+/*Numbers and the background box*/
+#score-num-home,
+#score-num-away {
+  margin: 20px 10px 30px 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 120px;
+  width: 155px;
+  background-color: #080001;
+  color: #f94f6d;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+/*Buttons*/
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 155px;
+  height: 45px;
+}
+#reset-btn {
+  border: solid 2px #9aabd8;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1b244a;
+  color: #ffffff;
+  text-align: center;
+}
+
+button {
+  border: solid 3px #9aabd8;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+  background-color: #1b244a;
+  color: #ffffff;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #263060;
+}
+button:active {
+  background-color: #6f7baf;
+}
